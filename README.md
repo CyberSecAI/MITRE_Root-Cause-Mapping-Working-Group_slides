@@ -1,16 +1,30 @@
 # MITRE_Root-Cause-Mapping-Working-Group_slides
 
-The following content is available here as Markdown for consumption my a machine.
+- [MITRE\_Root-Cause-Mapping-Working-Group\_slides](#mitre_root-cause-mapping-working-group_slides)
+  - [Overview](#overview)
+  - [Recipe](#recipe)
+  - [Slides](#slides)
+  - [Guidance](#guidance)
+    - [Recipe](#recipe-1)
+  - [Summarize](#summarize)
+
+
+## Overview
+[Unified_CWE_Mapping_Guidance_for_LLMs.md](./Unified_CWE_Mapping_Guidance_for_LLMs.md) is a summary of the MITRE CWE Guidance in a form suitable for an LLM to use.
+
+## Recipe
+1. Convert relevant  Root Cause Mapping Working Group meeting slide decks to MarkDown.
+2. Convert relevant guidance from MITRE CWE website to MarkDown 
+3. Summarize the Markdown documents to one Markdown document suitable for use by an LLM
+
+> [!NOTE]
+> ChatGPT was used to convert to MarkDown (as it worked better than MarkItDown or other such tools), and to summarize the content.
+> 
+> Some parts were manually removed (if not relevant to mapping guidance).
 
 ## Slides
 
 All slides from https://github.com/Root-Cause-Mapping-Working-Group/RCM-WG/tree/main/meeting_slides were reviewed and a subset were deemed relevant for mapping information.
-
-> [!NOTE]
-> Slides were converted with ChatGPT (as it worked better than MarkItDown or other such tools).
-
-
-## Slides
 
 Note: RCM-WG-241204 is a subset of RCM-WG-241218 so not converted.
 
@@ -19,10 +33,11 @@ Note: RCM-WG-241204 is a subset of RCM-WG-241218 so not converted.
 1. https://cwe.mitre.org/documents/cwe_usage/guidance.html
 2. https://cwe.mitre.org/documents/cwe_usage/mapping_navigation.html
 
+### Recipe
 
-   1. Prompt to ChatGPT:
+1. Prompt to ChatGPT:
 >convert the guidance on this page to markdown: https://cwe.mitre.org/documents/cwe_usage/guidance.html
-   2. Manually remove parts not relevant for guidance of an LLM
+2. Manually remove parts not relevant for guidance of an LLM
 
 
 ## Summarize
