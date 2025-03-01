@@ -14,12 +14,6 @@ This document provides consolidated guidance for mapping vulnerabilities to Comm
 
 ### 1.2 What is Root Cause Mapping?
 - **Root Cause Mapping** identifies the underlying causes of vulnerabilities by correlating vulnerability records (e.g., CVE Records) with CWE entries.
-- **Benefits:**
-  - Guides investments in secure development.
-  - Helps reduce vulnerabilities by eliminating classes of weaknesses.
-  - Supports trend analysis and provides insights into potential exploitability.
-  - Enhances transparency by showing how products address core issues.
-
 ---
 
 ## 2. General Mapping Principles
@@ -75,15 +69,11 @@ This document provides consolidated guidance for mapping vulnerabilities to Comm
 - **Common Mapping:**  
   - **CWE-77**: Improper Neutralization of Special Elements used in a Command.
   - **Preferred Detail:** When details indicate operating system command injection, map to its child, **CWE-78**.
-- **Example Cases:**
-  - **CVE-2023-20075:** Cisco CNA maps to CWE-77, while NVD maps to CWE-78.
-  - **CVE-2023-36642 & CVE-2024-21887:** Similar discrepancies require reviewing advisory details and references to decide the most accurate mapping.
+details and references to decide the most accurate mapping.
 
 ### 4.2 Memory Buffer Issues
 - **General Guidance:**  
   - For buffer-related vulnerabilities, map to the most specific CWE (e.g., **CWE-122** for Heap-based Buffer Overflow rather than generic **CWE-119**).
-- **Example:**
-  - **CVE-2023-30774:** Mapping can vary (e.g., Red Hat CNA might choose a different child than NVD). Always match based on specific keywords and technical details.
 
 ### 4.3 Exposure of Sensitive Information
 - **CWE-200 is Discouraged:**  
