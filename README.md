@@ -1,1 +1,43 @@
 # MITRE_Root-Cause-Mapping-Working-Group_slides
+
+The following content is available here as Markdown for consumption my a machine.
+
+## Slides
+
+All slides from https://github.com/Root-Cause-Mapping-Working-Group/RCM-WG/tree/main/meeting_slides were reviewed and a subset were deemed relevant for mapping information.
+
+> [!NOTE]
+> Slides were converted with ChatGPT (as it worked better than MarkItDown or other such tools).
+
+
+## Slides
+
+Note: RCM-WG-241204 is a subset of RCM-WG-241218 so not converted.
+
+## Guidance
+
+1. https://cwe.mitre.org/documents/cwe_usage/guidance.html
+2. https://cwe.mitre.org/documents/cwe_usage/mapping_navigation.html
+
+
+   1. Prompt to ChatGPT:
+>convert the guidance on this page to markdown: https://cwe.mitre.org/documents/cwe_usage/guidance.html
+   2. Manually remove parts not relevant for guidance of an LLM
+
+
+## Summarize
+
+Unified_CWE_Mapping_Guidance_for_LLMs.md is the Unified CWE Mapping Guidance for LLMs.
+
+
+>review all this guidance and create a markdown document for it. 
+The result will be used by an LLM for mapping CWEs so it should optimal for an LLM - so reiterate or summarize where necessary. And remove duplicated parts.
+
+- 20240508_RCM-WG_CWE_Mapping_Examples.md
+- CWE_200_sensitive_info_RCM-WG-250115.pptx.md
+- CWE_269_Improper_Privilege_Management_RCM-WG-241218.md
+- CWE_Mapping_ Navigation_Guidance.md
+- CWE_RCWG_Mapping_Guidance.md
+- View_1003_RCM-WG_240925.md
+
+*This document is intended to serve as an optimal reference for an LLM performing CWE mapping, integrating guidance from multiple sources while eliminating redundancy. Use it to guide automated mapping decisions and ensure consistency in identifying the root cause weaknesses in vulnerabilities.*
