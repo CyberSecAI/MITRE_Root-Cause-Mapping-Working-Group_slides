@@ -12,6 +12,9 @@
 ## Overview
 [Unified_CWE_Mapping_Guidance_for_LLMs.md](./Unified_CWE_Mapping_Guidance_for_LLMs.md) is a summary of the MITRE CWE Guidance in a form suitable for an LLM to use.
 
+> [!NOTE]
+> This guidance is a complement to the specific "Vulnerability Mapping Notes" per CWE e.g. "Vulnerability Mapping Notes" section of https://cwe.mitre.org/data/definitions/20.html 
+
 ## Recipe
 1. Convert relevant  Root Cause Mapping Working Group meeting slide decks to MarkDown.
 2. Convert relevant guidance from MITRE CWE website to MarkDown 
